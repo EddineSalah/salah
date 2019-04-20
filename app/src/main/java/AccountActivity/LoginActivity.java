@@ -97,6 +97,7 @@ public class LoginActivity extends AppCompatActivity {
                     ShowMessage(task.getException().getMessage());
                     userPrg.setVisibility(View.INVISIBLE);
                     userBtn.setVisibility(View.VISIBLE);
+
                 }
             }
         });
