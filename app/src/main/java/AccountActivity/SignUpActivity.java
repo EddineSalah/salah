@@ -1,6 +1,7 @@
-package com.adib.iread;
+package AccountActivity;
 
 import android.Manifest;
+import android.accounts.Account;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -17,6 +18,8 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.adib.iread.MainActivity;
+import com.adib.iread.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -141,7 +144,7 @@ public class SignUpActivity extends AppCompatActivity {
         }
 
         private void UpdateUI() {
-            Intent homeActivity = new Intent(getApplicationContext(),MainActivity.class);
+            Intent homeActivity = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(homeActivity);
             finish();
         }

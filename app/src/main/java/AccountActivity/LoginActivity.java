@@ -1,4 +1,4 @@
-package com.adib.iread.AccountActivity;
+package AccountActivity;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -13,8 +13,6 @@ import android.widget.Toast;
 
 import com.adib.iread.MainActivity;
 import com.adib.iread.R;
-import com.adib.iread.ResetActivity;
-import com.adib.iread.SignUpActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
