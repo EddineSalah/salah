@@ -98,6 +98,7 @@ public class LoginActivity extends AppCompatActivity {
                     userPrg.setVisibility(View.INVISIBLE);
                     userBtn.setVisibility(View.VISIBLE);
 
+
                 }
             }
         });
