@@ -35,6 +35,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
+        android:id="@+id/log_Pass"
         android:layout_width="match_parent"
         android:layout_height="42.86dp"
         android:layout_marginStart="2dp"
@@ -46,6 +47,7 @@
         android:background="@drawable/rectangle"
         tools:ignore="MissingConstraints" />
     <Button
+        android:id="@+id/log_Btn"
         android:layout_width="140dp"
         android:layout_height="42.86dp"
         android:layout_marginStart="120dp"
@@ -56,6 +58,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/log_Rest"
         android:layout_width="140dp"
         android:layout_height="19dp"
         android:text="Reset Password"
@@ -68,7 +71,7 @@
         android:textAlignment="center"/>
 
     <TextView
-        android:id="@+id/log_signup"
+        android:id="@+id/log_Signup"
         android:layout_width="140dp"
         android:layout_height="19dp"
         android:text="Sign Up"
@@ -79,21 +82,9 @@
         android:textStyle="bold"
         android:textSize="13sp"
         android:textAlignment="center"/>
-    -->
-    <!--
-    <EditText
-        android:id="@+id/rectangle"
-        android:layout_width="0dp"
-        android:layout_height="46dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
-        android:background="@drawable/rectangle"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-     -->
+    <ProgressBar
+        android:id="@+id/log_Prog"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"/>
 </RelativeLayout>
